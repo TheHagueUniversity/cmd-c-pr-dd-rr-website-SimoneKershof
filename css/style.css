@@ -184,6 +184,7 @@ header h1{
 .waaromhome p{
 	width: 50%;
 	margin: 0 auto;
+	line-height: 22px;
 }
 
 .waaromhome h1{
@@ -194,12 +195,149 @@ header h1{
 
 /* SOCIAL WALL*/
 
+.socialhome h2{
+	margin-bottom: 25px;
+}
+
+.socialhome{
+	margin-top: 50px;
+}
+
 .socialwallblok{
 	width: 260px;
-	height: 270px;
+	height: 280px;
 	float: left;
 	margin: 20px;
-	padding: 10px;
-	background-color: peachpuff;
+	padding: 20px;
+	background-color: white;
+}
 
+.socialwallblok p{
+	text-align: left;
+	line-height: 17px;
+}
+
+.social1 .image_social{
+	width: 100%;
+	height: 210px;
+	background-image:url('../images/social1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.social2 .image_social{
+	width: 100%;
+	height: 210px;
+	background-image:url('../images/social2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.social3 .image_social{
+	width: 100%;
+	height: 210px;
+	background-image:url('../images/social3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.social4 .image_social{
+	width: 100%;
+	height: 210px;
+	background-image:url('../images/social4.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+/* SOCIAL FOOTER*/
+
+.socialfooter{
+	width: 100%;
+	height: 80px;
+	background-color: #34373f;
+	color: white;
+
+}
+
+.socialfooter ul{
+  	/* display: inline; */
+}
+
+.socialfooter li {
+  	display: inline;
+  	cursor: pointer;
+  	padding: 10px;
+  	float: left;
+  	margin-top: 20px;
+  	margin-right: 90px;
+}
+
+.sociallogo{
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+	margin-top: -5px;
+}
+
+.twitter{
+	background-image:url('../images/twitter.png');
+
+}
+
+.facebook{
+	background-image:url('../images/facebook.png');
+}
+
+.instagram{
+	background-image:url('../images/instagram.png');
+
+}
+
+.socialmargin {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer{
+	height: 200px;
+	color: white;
+	width: 100%;
+}
+
+footer{
+	margin-top: 380px;
+}
+
+.footercol{
+	float: left;
+	padding: 50px;
+}
+
+.footercol h2{
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.footercol p{
+	text-align: left;
+	padding-left: 10px;
+	margin-bottom: 5px;
+
+}
+
+.footermargin{
+	width: 840px;
+    margin: 0 auto;
+}
+
+.sitemap p{
+	cursor: pointer;
+	margin-bottom: 10px;
 }
