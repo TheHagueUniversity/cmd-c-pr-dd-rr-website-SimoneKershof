@@ -8,10 +8,10 @@
 	<!-- Main CSS file -->
 	<link rel="stylesheet" href="css/style.css" />
 </head>
-
+<!-- Met het project ben ik er achter gekomen dat mijn codeerfunctie erg geroest is, dit was voor mij dus stiekem wel weer een uitdaging. Helaas niet toegekomen aan te veel interacties, maar wilde de website wel al plat erg gebruiksvriendelijk maken, door middel van patterns en consistentie. -->
 <body>
 	<section class="menu">
-		<!-- REVIEW: Ik zou hier al met de header beginnen. De nav is gewoon een onderdeel van je header -->
+		<!-- Hele simpele list met dikgedrukte letters waar je bent, simpel en duidelijk. -->
 		<nav class="sitewidth">
 		<a class="logo" href="index.html"></a>
 		<ul>
@@ -37,19 +37,19 @@
 		</header>
 		<!-- /HEADER -->
 
+		<!-- Er is gekozen voor een sitewidth, zodat de website consistent is, je hoeft niet telkens je ogen te verplaatsen, rust. Een soort grid. -->
 		<!-- MAIN -->
 		<main class="sitewidth">
 			<!-- SECTION AGENDA PREVIEW -->
+			<!-- Nog geprobeerd om de hover werkend te krijgen helaas is dit niet meer gelukt. De code wilde ik strak en overzichtelijk houden, dus heb ik deze verwijderd. -->
 			<section class="voorstellinghome">
 				<h1>Beleef Imperium &amp; ga een avondje uit.</h1>
 				<h2>De voorstellingen van dit moment:</h2>
 				<div class="voorstellingblok voorstelling1">
 					<div class="image_voorstelling"></div>
-					<!-- REVIEW: de afbeelding is in dit geval content en geen styling. Je mag dus gewoon <img> gebruiken in je HTML -->
+					<!-- Preview van eerst opvolgende voorstellingen. -->
 					<h3>Biest</h3>
 					<h3>27.05.2017</h3>
-					<!-- REVIEW: Datum en tijd zijn géén <h3>. Je zou hiervoor een <time> kunnen gebruiken (https://www.sitepoint.com/html5-time-element-guide/)
-				maar een paragraaf met een linebreak (<br/> zou ik ook prima vinden) -->
 					<h3>20:30</h3>
 				</div>
 				<div class="voorstellingblok voorstelling2">
@@ -67,14 +67,14 @@
 
 				</div>
 				<div class="voorstellingblok voorstellingmeer">
-					<h3>
+					<a href="agendatickets.html"><h3>
 						Bekijk onze agenda voor meer voorstellingen en data.
-						<!-- REVIEW: Moet dit geen link zijn (en geen <h3>)? -->
-					</h3>
+					</h3></a>
 				</div>
 			</section>
 			<!-- /SECTION AGENDA PREVIEW -->
 
+			<!-- voor Waarom is er gekozen om een niet te lange regels weer te geven, maximaal 8 woorden per regel. dit zorgt voor gebruiksvriendelijkheid. -->
 			<!-- SECTION WAAROM IMPERIUM -->
 			<section class="waaromhome">
 				<h1>Waarom Imperium</h1>
@@ -106,7 +106,7 @@
 			<!-- /SECTION SOCIAL PICTURE WALL -->
 		</main>
 		<!-- /MAIN -->
-
+<!--Footer bestaat uit twee onderdelen, de socialmediasectie en de contactgegeven en sitemap sectie. -->
 		<!-- FOOTER -->
 		<footer>
 			<section class="socialfooter">
@@ -141,10 +141,11 @@
 					</div>
 					<div class="sitemap footercol">
 						<h2>Snel naar</h2>
-						<p><a href="#">Home</a> </p>
-						<p><a href="">Over Ons</a> </p>
-						<p><a href="">Agenda + Tickets</a> </p>
-						<p><a href="">Contact</a></p>
+						<p><a href="index.html">Home</a> </p>
+						<p><a href="overons.html">Over Ons</a> </p>
+						<p><a href="agendatickets.html">Agenda + Tickets</a> </p>
+						<p><a href="contact.html">Contact</a></p>
+						
 						
 					</div>
 					<div class="contactfooter footercol">
