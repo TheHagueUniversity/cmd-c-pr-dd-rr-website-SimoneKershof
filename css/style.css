@@ -366,3 +366,70 @@ footer{
 	margin-top: 960px;
 }
 
+/* VOORSTELLINGAGENDA */
+
+.voorstellingblok{
+	width: 260px;
+	height: 270px;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+}
+
+.voorstellingblok h3{
+	text-align: left;
+	margin-bottom: 3px;
+	padding-right: 66px;
+}
+
+.voorstelling1 .image_voorstelling{
+	width: 100%;
+	height: 135px;
+	background-image:url('../images/voorstelling_image1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.voorstelling2 .image_voorstelling{
+	width: 100%;
+	height: 135px;
+	background-image:url('../images/voorstelling_image2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.voorstelling3 .image_voorstelling{
+	width: 100%;
+	height: 135px;
+	background-image:url('../images/voorstelling_image3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.voorstellingagenda{
+	float:right;
+	width: 75%;
+}
+
+.voorstellinghome h2{
+	margin-bottom: 25px;
+}
+
+.voorstellinghome{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.voorstelling1{
+	background-color: #cfe2f5;
+}
+
+.voorstelling2{
+	background-color: #f0d6e4;
+}
+
+.voorstelling3{
+	background-color: #fcf7bf;
+}
+
+
